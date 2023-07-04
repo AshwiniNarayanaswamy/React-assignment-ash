@@ -1,0 +1,5 @@
+# Project-level settings
+/.tgitconfig
+/node_modules
+/dist
+.parcel-cache

@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+.headcontainer {
+    border-bottom: 1px solid #00f;
+    justify-content: space-between;
+    display: flex;
+    background: #1e1d1c;
+    height: 50px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+img.logoimage {
+    width: 110px;
+}
+.headertitle {
+    color: #fff;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+.headrightcontent ul {
+    list-style-type: none;
+    display: inline-flex;
+}
+.headrightcontent ul li {
+    margin: 0px 4px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #fff;
+}
+.searchcontainer {
+    display: flex;
+    justify-content: end;
+    margin-right: 10px;
+}
+button {
+    padding: 10px;
+    margin: 0px 2px;
+}
+.restaurantdata {
+    width: 20%;
+    border: 2px solid blue;
+    height: auto;
+}
+.restaurantdata h1, RestaurantCard h2 {
+    font-size: 24px;
+}
+.Userdata {
+    display: flex;
+    flex-wrap: wrap;
+}
+a.userlinks {
+    text-decoration: none;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: 20%;
+    margin: 10px;
+    padding: 10px;
+    display: contents;
+    color: #000;
+}
+.alluserdata {
+    width: 20%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+.alluserdata h1  {
+    color: #175c6b;
+    font-size: 18px;
+    text-decoration: underline;
+}
+.alluserdata h2 {
+    font-size: 18px;
+}
+.shimmercard {
+    width: 20%;
+    border: 1px solid #000;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    background: gray;
+}
+.Error {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10% 0px;
+    align-items: center;
+}
+.Error h1 {
+    width: 100%;
+    text-align: center;
+}
+.usermyprofile h1 {
+    width: 100%;
+    padding: 10px;
+}
+
+.usermyprofile {
+    margin: 0 auto;
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.usermyprofile div {
+    width: 100%;
+    margin: 0 auto;
+    display: inline-flex;
+    padding: 10px;
+}

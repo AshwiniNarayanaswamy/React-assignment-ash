@@ -1,0 +1,1 @@
+export const Title = (<img src ="https://assist.capillarytech.com/csd/bb161b9a8783e9509919553cbbbb35f3.iix" className="logoimage" /> );
